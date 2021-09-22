@@ -1,0 +1,23 @@
+//Menu Css
+.main_menu{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  .navbar-nav{
+    .nav-item{
+      .nav-link{
+        font-family: $fontPrimary;
+        color: $colorBlack;
+        font-size: 15px;
+        letter-spacing: .5px;
+        font-weight: 500;
+        margin-left: 20px;
+        transition: all linear .3s;
+        &:hover{
+          color: $colorHover;
+        }
+      } 
+    }
+  }
+}
